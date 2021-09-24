@@ -1,0 +1,103 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 1px 30px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+  line-height: 30px;
+}
+
+.waveButton {
+}
+
+.passInput {
+  margin-top: 30px;
+  width: 150px;
+  height: 30px;
+}
+
+.connectButton {
+}
+
+.key {
+  font-size: 18px;
+  display: inline-block;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.09);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.value {
+  font-size: 16px;
+}
+
+.button {
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.totalWaves {
+  margin-top: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.messageBox {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+.post {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.09);
+  margin-top: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  align-self: center;
+  width: 100%;
+}
+.eachRow {
+  margin: 4px;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  padding: 20px 20px;
+  width: 50vw;
+  align-self: center;
+}
